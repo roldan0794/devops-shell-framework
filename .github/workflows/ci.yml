@@ -12,7 +12,7 @@ jobs:
    - name: Checkout
      uses: actions/checkout@v4
 
-   - name" Validar scripts shell
+   - name: Validar scripts shell
      run: |
       bash -n app/app.sh
       bash -n scripts/validate.sh
